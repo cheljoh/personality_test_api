@@ -1,0 +1,51 @@
+id,question,category, scale
+1,Am the life of the party,extraversion,1
+2,Feel little concern for others,agreeableness,-1
+3,Am always prepared,conscientiousness,1
+4,Get stressed out easily,emotional_stability,-1
+5,Have a rich vocabulary,intellect,1
+6,Don't talk a lot,extraversion,-1
+7,Am interested in people,agreeableness,1
+8,Leave my belongings around,conscientiousness,-1
+9,Am relaxed most of the time,emotional_stability,1
+10,Have difficulty understanding abstract ideas,intellect,-1
+11,Feel comfortable around people,extraversion,1
+12,Insult people,agreeableness,-1
+13,Pay attention to details,conscientiousness,1
+14,Worry about things,emotional_stability,-1
+15,Have a vivid imagination,intellect,1
+16,Keep in the background,extraversion,-1
+17,Sympathize with other's feelings,agreeableness,1
+18,Make a mess of things,conscientiousness,-1
+19,Seldom feel blue,emotional_stability,1
+20,Am not interested in abstract ideas,intellect,-1
+21,Start conversations,extraversion,-1
+22,Am not interested in other people's problems,agreeableness,-1
+23,Get chores done right away,conscientiousness,1
+24,Am easily disturbed,emotional_stability,-1
+25,Have excellent ideas,intellect,1
+26,Have little to say,extraversion,-1
+27,Have a soft heart,agreeableness,1
+28,Often forget to put things back in their proper place,conscientiousness,-1
+29,Get upset easily,emotional_stability,-1
+30,Do not have a good imagination,intellect,-1
+31,Talk to a lot of different people at parties,extraversion,1
+32,Am not really interested in others,agreeableness,-1
+33,Like order,conscientiousness,1
+34,Change my mood a lot,emotional_stability,-1
+35,Am quick to understand things,intellect,1
+36,Don't like to draw attention to myself,extraversion,-1
+37,Take time out for others,agreeableness,1
+38,Shirk my duties,conscientiousness,-1
+39,Have frequent mood swings,emotional_stability,-1
+40,Use difficult words,intellect,1
+41,Don't mind being the center of attention,extraversion,1
+42,Feel others' emotions,agreeableness,1
+43,Follow a schedule,conscientiousness,1
+44,Get irritated easily,emotional_stability,-1
+45,Spend time reflecting on things,intellect,1
+46,Am quiet around strangers,extraversion,-1
+47,Make people feel at ease,agreeableness,1
+48,Am exacting in my work,conscientiousness,1
+49,Often feel blue,emotional_stability,-1
+50,Am full of ideas,intellect,1
