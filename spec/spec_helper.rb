@@ -1,5 +1,17 @@
 require "simplecov"
 
+module SpecHelpers
+
+  def make_questions
+    Question.create(question: "Are you really who you say you are", category: "extraversion", scale: 1)
+    Question.create(question: "Are you coo", category: "agreeableness", scale: -1)
+    Question.create(question: "Are you fun", category: "emotional_stability", scale: 1)
+    Question.create(question: "Are you happy", category: "agreeableness", scale: 1)
+    Question.create(question: "Are you awesome", category: "extraversion", scale: -1)
+    Question.create(question: "Are you fine", category: "intellect", scale: 1)
+    Question.create(question: "Are you nice", category: "intellect", scale: -1)
+  end
+end
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

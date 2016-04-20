@@ -1,9 +1,17 @@
 require "rails_helper"
 
-RSpec.decribe "Question Endpoints Spec", type: :request do
+RSpec.describe "Question Endpoints Spec", type: :request do
   it "returns personality test questions" do
-    Question.create(question: "Are you really who you say you are", category: "extraversion", 1)
-    Question.create(question: "Are you coo", category: "agreeableness", 1)
-    get "api/v1/questions"
+    make_questions
+
+    question = Question.first
+
+    get "/api/v1/questions"
+
+    results = JSON.parse(response.body)
+    expect(response.content_type).to eq("application/json")
+    expect(response).to be_success
+    expect(results["1"]).to eq(question.question)
+    expect(results.count).to eq(Question.count)
   end
 end
