@@ -4,7 +4,7 @@ module Api
       respond_to :json
 
       def index
-        respond_with Question.pluck(:id, :question).to_h
+        respond_with Question.get_id_and_question
       end
     end
   end
