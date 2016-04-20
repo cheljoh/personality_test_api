@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       get "/questions", to: "questions#index"
     end
   end
+
+  root to: "home#index"
 end
