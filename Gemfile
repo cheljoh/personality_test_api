@@ -20,6 +20,8 @@ group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'database_cleaner'
+  gem 'capybara'
+  gem 'launchy'
 end
 
 group :test do

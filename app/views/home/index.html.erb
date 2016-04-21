@@ -1,1 +1,13 @@
-<h1>Welcome!</h1>
+<h1>Welcome to the Five Factor Personality Test Api!</h1>
+
+<h3>Endpoints:</h3>
+
+<p>GET personalitytest.herokuapp.com/api/v1/questions</p>
+<p>POST personalitytest.herokuapp.com/api/v1/questions</p>
+
+<ul>
+  <li>POST requires json params {"location" => whatever your url is, "answers" => {"3" => "2", "50" => "5"}}</li>
+  <li>Inner "answer params" has the question id as they key. The value is the user's response for that question (between 1 and 5) Should have 50 answer responses</li>
+</ul>
+
+Sources: http://ipip.ori.org/ 

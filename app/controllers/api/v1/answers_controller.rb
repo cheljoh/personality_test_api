@@ -5,9 +5,7 @@ module Api
 
       def create
         results = Answer.new.find_questions_and_score(params["answers"])
-        respond_with results, location: params["location"] #specify a URL
-        # do calculations
-        # respond_to or with with the results
+        respond_with results, location: params["location"]
       end
     end
   end
