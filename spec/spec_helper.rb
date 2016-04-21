@@ -3,13 +3,16 @@ require "simplecov"
 module SpecHelpers
 
   def make_questions
-    Question.create(question: "Are you really who you say you are", category: "extraversion", scale: 1)
-    Question.create(question: "Are you coo", category: "agreeableness", scale: -1)
-    Question.create(question: "Are you fun", category: "emotional_stability", scale: 1)
-    Question.create(question: "Are you happy", category: "agreeableness", scale: 1)
-    Question.create(question: "Are you awesome", category: "extraversion", scale: -1)
-    Question.create(question: "Are you fine", category: "intellect", scale: 1)
-    Question.create(question: "Are you nice", category: "intellect", scale: -1)
+    Question.find_or_create_by(id: 1, question: "Am the life of the party", category: "extraversion", scale: 1)
+    Question.find_or_create_by(id: 2, question: "Feel little concern for others", category: "agreeableness", scale: -1)
+    Question.find_or_create_by(id: 3, question: "Am always prepared", category: "conscientiousness", scale: 1)
+    Question.find_or_create_by(id: 4, question: "Get stressed out easily", category: "emotional_stability", scale: -1)
+    Question.find_or_create_by(id: 5, question: "Have a rich vocabulary", category: "intellect", scale: 1)
+    Question.find_or_create_by(id: 6, question: "Don't talk a lot", category: "extraversion", scale: -1)
+    Question.find_or_create_by(id: 7, question: "Am interested in people", category: "agreeableness", scale: 1)
+    Question.find_or_create_by(id: 8, question: "Leave my belongings around", category: "conscientiousness", scale: -1)
+    Question.find_or_create_by(id: 9, question: "Am relaxed most of the time", category: "emotional_stability", scale: 1)
+    Question.find_or_create_by(id: 10, question: "Have difficulty understanding abstract ideas", category: "intellect", scale: -1)
   end
 end
 
