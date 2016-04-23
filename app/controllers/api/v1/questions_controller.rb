@@ -4,7 +4,7 @@ module Api
       respond_to :json
 
       def index
-        respond_with Question.all#.get_id_and_question
+        respond_with Question.all
       end
     end
   end
