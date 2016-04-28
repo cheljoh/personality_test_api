@@ -32,3 +32,5 @@ Inner "answer params" has the question id as they key. The value is the user's r
 Scores are out of 50, so score of 30/50 would be considered "moderate." 
 
 Sources: http://ipip.ori.org/
+
+To see an implementation of the app, check out http://personalitytest.herokuapp.com/
