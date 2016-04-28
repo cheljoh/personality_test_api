@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.5.1'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
@@ -12,9 +11,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'responders', '~> 2.0'
 gem 'rails_12factor', group: :production
 gem 'rack-cors', :require => 'rack/cors'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
 
 group :development, :test do
   gem 'pry-rails'

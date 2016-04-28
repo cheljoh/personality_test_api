@@ -7,7 +7,7 @@ RSpec.describe "AnswerEndpointSpec", type: :request do
 
     answers = {"1"=>"1", "2"=>"3", "3"=>"4", "4"=>"2", "5"=>"5", "6"=>"5", "7"=>"1", "8"=>"3", "9"=>"2", "10"=>"5"}
 
-    post "/api/v1/answers", { "answers" => answers } #how do I send params here
+    post "/api/v1/answers", { "answers" => answers }
 
     results = JSON.parse(response.body)
 
@@ -15,5 +15,4 @@ RSpec.describe "AnswerEndpointSpec", type: :request do
 
     expect(expected).to eq(results)
   end
-
 end

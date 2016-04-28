@@ -4,7 +4,7 @@ class Answer
     @scores_by_category = Hash.new(0)
   end
 
-  def find_questions_and_score(answers) #first do it with positive answers
+  def find_questions_and_score(answers)
     answers.each do |id, score|
       question = Question.find(id)
       score_answers(question, score)
@@ -12,7 +12,7 @@ class Answer
     @scores_by_category
   end
 
-  def score_answers(question, score) #if negative, then a hash
+  def score_answers(question, score)
     if question.scale == 1
       @scores_by_category[question.category] += score.to_i
     else question.scale == -1
@@ -20,5 +20,4 @@ class Answer
       @scores_by_category[question.category] += negative_scores[score]
     end
   end
-
 end
