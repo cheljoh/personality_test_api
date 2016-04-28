@@ -26,7 +26,8 @@ Endpoints:
 
 POST requires json params {"location" => whatever your url is, "answers" => {"3" => "2", "50" => "5"}}.
 Inner "answer params" has the question id as they key. The value is the user's response for that question (between 1 and 5). Should have 50 answer responses. The response simply returns the following JSON key/value pairs:
+ * "{\"extraversion\":30,\"agreeableness\":34,\"conscientiousness\":45,\"emotional_stability\":30,\"intellect\":42}" - the category and the score. 
 
-"{\"extraversion\":30,\"agreeableness\":34,\"conscientiousness\":45,\"emotional_stability\":30,\"intellect\":42}"- the category and the score. Scores are out of 50, so score of 30/50 would be considered "moderate." 
+Scores are out of 50, so score of 30/50 would be considered "moderate." 
 
 Sources: http://ipip.ori.org/
