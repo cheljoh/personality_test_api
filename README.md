@@ -22,7 +22,7 @@ Endpoints:
 
  * GET personalitytest.herokuapp.com/api/v1/questions
 
- * POST personalitytest.herokuapp.com/api/v1/questions
+ * POST personalitytest.herokuapp.com/api/v1/answers
 
 POST requires json params `{"location" => whatever your url is, "answers" => {"3" => "2", "50" => "5"}}`.
 Inner "answer params" has the question id as they key. The value is the user's response for that question (between 1 and 5). Should have 50 answer responses. The response simply returns the following JSON key/value pairs:<br>
